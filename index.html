@@ -81,9 +81,187 @@
             content="./assets/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
         <!-- Embed CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <body></body>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <!-- Logo -->
+                    <a href="/">
+                        <img
+                            src="./assets/imgs/logo.svg"
+                            alt="Besnik."
+                            class="header__logo"
+                        />
+                    </a>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item navbar__item--active">
+                                <a href="#!" class="navbar__link">Home</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Features</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Pricing</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Action -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__login">Sign in</a>
+                        <button class="header-action__sign-up">Sign up</button>
+                    </div>
+                </div>
+                <!-- Hero -->
+                <section class="hero">
+                    <div class="hero__inner">
+                        <section class="hero__content">
+                            <p class="hero__title">😎 EASY LEAENING PLATFORM</p>
+                            <h1 class="hero__heading">
+                                Words learner come here.
+                            </h1>
+                            <p class="hero__desc">
+                                Build skills with courses, certificates, and get
+                                online knowledge from our world-class platform.
+                            </p>
+                            <div class="hero-action">
+                                <a href="#!" class="btn">Get Started</a>
+                                <button class="hero-action__play-btn">
+                                    <svg
+                                        width="14"
+                                        height="18"
+                                        viewBox="0 0 14 18"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M14 9L0 0V18L14 9Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </section>
+                        <div class="hero__media">
+                            <figure class="hero__images">
+                                <img
+                                    src="./assets/imgs/hero_01.png"
+                                    alt="Words learner come here."
+                                    class="hero__img"
+                                />
+                            </figure>
+                            <div class="hero-course">
+                                <img
+                                    src="./assets/icons/book-icon.svg"
+                                    alt=""
+                                    class="hero-course__icon"
+                                />
+                                <div class="hero-course__content">
+                                    <span class="hero-course__text">
+                                        Course</span
+                                    >
+                                    <span class="hero-course__text">1000+</span>
+                                </div>
+                            </div>
+                            <div class="hero-schedule">
+                                <h3 class="hero-schedule__heading">
+                                    Schedules
+                                </h3>
+                                <div class="hero-schedule__rates">
+                                    <div class="hero-schedule__progress-bar">
+                                        <div
+                                            class="hero-schedule__progress"
+                                            style="--percent: 53%"
+                                        ></div>
+                                    </div>
+                                    <div class="hero-schedule__progress-bar">
+                                        <div
+                                            class="hero-schedule__progress"
+                                            style="--percent: 69%"
+                                        ></div>
+                                    </div>
+                                    <div class="hero-schedule__progress-bar">
+                                        <div
+                                            class="hero-schedule__progress"
+                                            style="--percent: 45%"
+                                        ></div>
+                                    </div>
+                                    <div
+                                        class="hero-schedule__progress-bar"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="hero-quantity">
+                                <h3 class="hero-quantity__heading">
+                                    Our Active Students
+                                </h3>
+                                <div class="hero-quantity__list">
+                                    <div
+                                        class="hero-quantity__item"
+                                        style="--bg-color: #1ebfc1"
+                                    >
+                                        <img
+                                            class="hero-quantity__img"
+                                            src="./assets/imgs/hero_02.png"
+                                            alt="Avatar"
+                                        />
+                                    </div>
+                                    <div
+                                        class="hero-quantity__item"
+                                        style="--bg-color: #ffc147"
+                                    >
+                                        <img
+                                            class="hero-quantity__img"
+                                            src="./assets/imgs/hero_03.png"
+                                            alt="Avatar"
+                                        />
+                                    </div>
+                                    <div
+                                        class="hero-quantity__item"
+                                        style="--bg-color: #ff947a"
+                                    >
+                                        <img
+                                            class="hero-quantity__img"
+                                            src="./assets/imgs/hero_04.png"
+                                            alt="Avatar"
+                                        />
+                                    </div>
+                                    <div
+                                        class="hero-quantity__item"
+                                        style="--bg-color: #bf83ff"
+                                    >
+                                        <img
+                                            class="hero-quantity__img"
+                                            src="./assets/imgs/hero_05.png"
+                                            alt="Avatar"
+                                        />
+                                    </div>
+                                    <div class="hero-quantity__item">10K+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+    </body>
 </html>
