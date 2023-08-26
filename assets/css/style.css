@@ -354,6 +354,8 @@ a {
     column-gap: 200px;
 }
 
+/* Feature Item */
+
 .feature-item {
     width: 224px;
 }
@@ -382,4 +384,136 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.68;
+}
+
+/* Course */
+.course {
+    padding: 65px 0;
+}
+
+.course__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course__desc {
+    max-width: 525px;
+}
+
+.course__link {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration-line: underline;
+}
+
+.course__list {
+    margin-top: 79px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 47px;
+}
+
+/* Course Item */
+.course-item {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.course-item__thumb:hover .course-item__img,
+.course-item__body:hover ~ .course-item__thumb .course-item__img {
+    transform: scale(1.1);
+}
+
+.course-item__thumb {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.course-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease-in 0.2s;
+}
+
+.course-item__overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.course-item__body {
+    width: 325px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    padding: 18px 25px 30px;
+    margin: 0 auto;
+    margin-top: -71px;
+    position: relative;
+    text-align: left;
+    z-index: 99;
+}
+
+.course-item__heading {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.course-item__fee {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.course-item__price {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.course-item__row {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.course-item__desc,
+.course-item__text {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+}
+.course-item__text {
+    margin-left: 16px;
+}
+
+.course-item__text::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #1ebfc1;
+    border-radius: 50%;
+    left: -16px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
