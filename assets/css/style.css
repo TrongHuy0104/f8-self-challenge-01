@@ -689,3 +689,19 @@ a {
     height: 100%;
     object-fit: cover;
 }
+
+/* CTA */
+.cta {
+    background-color: #def6f5;
+    padding: 76px 0 88px;
+}
+
+.cta__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__btn {
+    margin-right: 155px;
+}
