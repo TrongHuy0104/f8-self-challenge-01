@@ -543,3 +543,149 @@ a {
     line-height: 1.5;
     white-space: nowrap;
 }
+
+/* Feedback */
+.feedback {
+    padding: 65px 0 130px;
+}
+
+.feedback__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 72px;
+}
+
+.feedback__content {
+    width: 36%;
+}
+
+.feedback__icon {
+    margin-bottom: 27px;
+}
+
+.feedback__quote {
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 33px;
+}
+
+.feedback__author {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 52px;
+    position: relative;
+    margin-left: 13px;
+}
+
+.feedback__author::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #070707;
+}
+
+.feedback__name {
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback__control {
+    display: flex;
+    column-gap: 30px;
+}
+
+.feedback__control-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2ac9bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2ac9bf;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.feedback__control-btn:hover {
+    background-color: #fff;
+    color: #2ac9bf;
+    cursor: pointer;
+}
+
+.feedback-user {
+    height: 481px;
+    width: 679px;
+    position: relative;
+}
+
+.feedback-user__item {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+
+.feedback-user__item--1st {
+    top: 257px;
+    left: 0;
+}
+
+.feedback-user__item--2nd {
+    top: 106px;
+    left: 273px;
+}
+
+.feedback-user__item--3rd {
+    top: 0;
+    left: 144px;
+}
+
+.feedback-user__item--4nd {
+    top: 18px;
+    right: 0;
+}
+
+.feedback-user__item--5nd {
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback-user__item--6nd {
+    bottom: 29px;
+    right: 32px;
+}
+
+.feedback-user__item--xs {
+    --size: 78px;
+}
+
+.feedback-user__item--md {
+    --size: 92px;
+}
+
+.feedback-user__item--md {
+    --size: 110px;
+}
+
+.feedback-user__item--xl {
+    --size: 235px;
+}
+
+.feedback-user__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
