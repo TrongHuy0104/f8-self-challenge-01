@@ -235,7 +235,7 @@ a {
     flex-direction: column;
     color: #0d1111;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     margin-left: 16px;
 }
@@ -255,7 +255,7 @@ a {
 .hero-quantity__heading {
     color: #0d1111;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 8px;
 }
@@ -704,4 +704,65 @@ a {
 
 .cta__btn {
     margin-right: 155px;
+}
+
+/* Footer */
+.footer {
+    padding-top: 130px;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 0.81fr 0.58fr 0.72fr 1fr 0.72fr;
+}
+
+.footer__column {
+    margin-right: 144px;
+}
+
+.footer__column:nth-last-child(2) {
+    margin-right: 137px;
+}
+
+.footer__column:last-child {
+    margin-right: 0;
+}
+
+.footer__heading {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.footer__item {
+    margin-top: 20px;
+}
+
+.footer__link {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__icon {
+    margin-right: 9px;
+}
+
+.footer__copyright {
+    padding: 80px 0 50px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
 }
